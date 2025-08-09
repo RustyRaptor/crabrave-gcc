@@ -1,11 +1,11 @@
-cvlc crabravecut.ogg & echo 🦀🦀🦀🦀🦀
+cvlc crabravecut.ogg > /dev/null 2> /dev/null & echo 🦀🦀🦀🦀🦀
 
 for ((i = 0 ; i < 8 ; i++)); do
 	echo 🦀
 	sleep 1
 done
 
-for ((i = 0 ; i < 7 ; i++)); do
+for ((i = 0 ; i < 5 ; i++)); do
 	for ((j = 0 ; j < i*2 ; j++)); do
         	printf "🦀"
 	done
